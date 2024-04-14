@@ -3,7 +3,8 @@
     color: white;
     text-align: center;
     margin: auto;
-    padding: 80px;
+    padding: 300px;
+    font-size: 120px;
 }
 footer {
     background-color: rgb(47, 48, 58);
@@ -14,6 +15,9 @@ footer {
     background-color: rgb(33, 150, 243);
     color: white;
     font-size: medium;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
 }
 .hwbslogo {
     color: black;
