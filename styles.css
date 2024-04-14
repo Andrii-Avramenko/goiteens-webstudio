@@ -17,3 +17,6 @@ footer {
 .fwbslogo {
     color: white;
 }
+ul {
+    list-style-position: none;
+}
