@@ -1,6 +1,8 @@
 .up123 {
     background-color: rgb(37, 37, 37);
     color: white;
+    text-align: center;
+    margin: auto;
 }
 footer {
     background-color: rgb(31, 31, 31);
