@@ -10,6 +10,10 @@ footer {
     background-color: rgb(47, 48, 58);
     color: white;
     padding: 10px;
+    padding-left: 5px;
+}
+header {
+    margin-top: 2px;
 }
 .byps {
     background-color: rgb(33, 150, 243);
@@ -25,12 +29,19 @@ footer {
 .fwbslogo {
     color: white;
 }
+.wbslogo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+button:hover.sort {
+    background-color: rgb(33, 150, 243);
+}
 ul {
     list-style-type: none;
 }
 nav {
     text-align: center;
-    padding: 5px;
     padding: 0;
 }
 .ulnav {
