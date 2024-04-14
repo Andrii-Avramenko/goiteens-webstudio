@@ -1,15 +1,17 @@
 .up123 {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(47, 48, 58);
     color: white;
     text-align: center;
     margin: auto;
+    padding: 80px;
 }
 footer {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(47, 48, 58);
     color: white;
+    padding: 10px;
 }
 .byps {
-    background-color: rgb(66, 66, 252);
+    background-color: rgb(33, 150, 243);
     color: white;
     font-size: medium;
 }
@@ -21,4 +23,20 @@ footer {
 }
 ul {
     list-style-type: none;
+}
+nav {
+    text-align: center;
+    padding: 5px;
+}
+.hadrs {
+    text-align: left;
+}
+.sec1 {
+    margin-left: 215px;
+}
+.sec2 {
+    margin-left: 215px;
+}
+.sec3 {
+    background-color: rgb(245, 244, 250);
 }
