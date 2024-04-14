@@ -3,8 +3,8 @@
     color: white;
     text-align: center;
     margin: auto;
-    padding: 300px;
-    font-size: 120px;
+    padding: 80px;
+    font-size: 20px;
 }
 footer {
     background-color: rgb(47, 48, 58);
@@ -31,6 +31,10 @@ ul {
 nav {
     text-align: center;
     padding: 5px;
+    padding: 0;
+}
+.ulnav {
+    list-style: none;
 }
 .hadrs {
     text-align: left;
