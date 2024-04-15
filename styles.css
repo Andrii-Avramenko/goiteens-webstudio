@@ -47,6 +47,9 @@ nav {
 a {
     text-decoration: none;
 }
+.ptfli {
+    border: 2px;
+}
 .ulnav {
     list-style: none;
 }
