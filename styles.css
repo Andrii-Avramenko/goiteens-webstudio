@@ -14,6 +14,8 @@ footer {
 }
 header {
     margin-top: 2px;
+    height: 30px;
+    background-color: white;
 }
 .byps {
     background-color: rgb(33, 150, 243);
@@ -25,6 +27,10 @@ header {
 }
 .hwbslogo {
     color: black;
+}
+#wbslogo {
+    float: left;
+    display: block;
 }
 .fwbslogo {
     color: white;
@@ -43,6 +49,11 @@ ul {
 nav {
     text-align: center;
     padding: 0;
+    float: left;
+    display: block;
+}
+nav li {
+    display: inline;
 }
 a {
     text-decoration: none;
@@ -54,7 +65,11 @@ a {
     list-style: none;
 }
 .hadrs {
-    text-align: left;
+    text-align: right;
+    float: right;
+}
+#sec1header {
+    display: none;
 }
 .sec1 {
     margin-left: 215px;
