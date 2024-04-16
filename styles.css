@@ -47,10 +47,10 @@ ul {
     list-style-type: none;
 }
 nav {
-    text-align: center;
     padding: 0;
     float: left;
     display: block;
+    height: 30px;
 }
 nav li {
     display: inline;
@@ -72,7 +72,12 @@ a {
     display: none;
 }
 .sec1 {
-    margin-left: 215px;
+    margin-left: 0;
+}
+.sec1 li {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
 }
 .sec2 {
     margin-left: 215px;
