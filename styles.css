@@ -1,3 +1,7 @@
+* {
+    margin: 0:
+    padding: 0;
+}
 .up123 {
     background-color: rgb(47, 48, 58);
     color: white;
@@ -38,7 +42,7 @@ header {
 .wbslogo {
     font-size: 24px;
     font-weight: bold;
-    margin-left: 3px;
+    margin-left: 3%;
 }
 button:hover.sort {
     background-color: rgb(33, 150, 243);
@@ -47,7 +51,6 @@ ul {
     list-style-type: none;
 }
 nav {
-    padding: 0;
     float: left;
     display: block;
     height: 30px;
