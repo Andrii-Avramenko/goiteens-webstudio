@@ -1,5 +1,5 @@
 * {
-    margin: 0:
+    margin: 0;
     padding: 0;
 }
 .up123 {
@@ -87,4 +87,8 @@ a {
 }
 .sec3 {
     background-color: rgb(245, 244, 250);
+}
+.team {
+    width: 270px;
+    height: 368px;
 }
