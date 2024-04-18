@@ -47,7 +47,7 @@ header {
 .wbslogo {
     font-size: 24px;
     font-weight: bold;
-    margin-left: 3%;
+    margin-left: 1%;
 }
 button:hover.sort {
     background-color: rgb(33, 150, 243);
