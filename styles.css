@@ -1,38 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-.up123 {
-    background-color: rgb(47, 48, 58);
-    color: white;
-    text-align: center;
-    margin: auto;
-    padding: 80px;
-    font-size: 20px;
-}
-footer {
-    background-color: rgb(47, 48, 58);
-    color: white;
-    padding: 10px;
-    padding-left: 5px;
-}
 header {
     margin-top: 2px;
-    height: 30px;
+    height: 80px;
     background-color: white;
 }
 @media screen and (max-width: 576px){
     header {
         height: 50px;
-  }
-}
-.byps {
-    background-color: rgb(33, 150, 243);
-    color: white;
-    font-size: medium;
-    width: 216px;
-    height: 50px;
-    border-radius: 4px;
+    }
 }
 .hwbslogo {
     color: black;
@@ -41,13 +22,14 @@ header {
     float: left;
     display: block;
 }
-.fwbslogo {
-    color: white;
-}
+
 .wbslogo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 1%;
+    color: #2196F3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    margin-left: 215px;
+    margin-top: 24px;
 }
 button:hover.sort {
     background-color: rgb(33, 150, 243);
@@ -56,12 +38,11 @@ ul {
     list-style-type: none;
 }
 nav {
-    float: left;
-    display: block;
+    display: inline-block;
     height: 30px;
 }
-nav li {
-    display: inline;
+nav ul li {
+    display: inline-block;
 }
 a {
     text-decoration: none;
@@ -76,6 +57,30 @@ a {
     text-align: right;
     float: right;
 }
+/* main */
+.byps {
+    background-color: rgb(33, 150, 243);
+    color: white;
+    font-size: medium;
+    border: 0;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+}
+.up123 {
+    background-color: rgb(47, 48, 58);
+    color: white;
+    text-align: center;
+    margin: auto;
+    height: 600px;
+}
+.up123 h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    padding-top: 200px;
+    height: 120px;
+}
 #sec1header {
     display: none;
 }
@@ -88,15 +93,62 @@ a {
     margin-right: 5%;
 }
 .sec2 {
-    margin-left: 20%;
-}
-.sec2pic {
+    font-family: Roboto;
+    text-align: center;
     
+    /* margin-left: 20%; */
+}
+.sec2 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 30px;
+}
+.sec2 li {
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.sec2 img {
+    width: 370px;
+    height: 294px;
+    object-fit: cover;
 }
 .sec3 {
+    font-family: Roboto;
     background-color: rgb(245, 244, 250);
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sec3 h2 {
+    margin: 30px;
+    padding-top: 30px;
 }
 .team {
+    background-color: white;
     width: 270px;
     height: 368px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.team img {
+    height: 260px;
+}
+.team h3 {
+    font-weight: 500;
+    margin-top: 30px;
+}
+.team p {
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+
+}
+/* footer */
+.fwbslogo {
+    color: white;
+}
+footer {
+    background-color: rgb(47, 48, 58);
+    color: white;
+    padding: 10px;
+    padding-left: 5px;
 }
