@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
 
 :root {
-    --background1: rgb(47, 48, 58);
+    --main-bg-color: #fff;
+    --second-bg-color: rgb(47, 48, 58);
     --background2: rgb(245, 244, 250);
-    --background3: white;
     --background4: rgba(33, 150, 243, 1);
-    --textcolor1: white;
-    --textcolor2: rgba(117, 117, 117, 1);
+    --maintextcolor: #000;
+    --textcolor2: #fff;
+    --textcolor3: rgba(117, 117, 117, 1);
 }
 * {
     margin: 0;
