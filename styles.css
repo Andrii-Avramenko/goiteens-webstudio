@@ -4,11 +4,11 @@
 :root {
     --main-bg-color: #fff;
     --second-bg-color: rgb(47, 48, 58);
-    --background2: rgb(245, 244, 250);
+    --third-bg-color: rgb(245, 244, 250);
     --background4: rgba(33, 150, 243, 1);
-    --maintextcolor: #000;
-    --textcolor2: #fff;
-    --textcolor3: rgba(117, 117, 117, 1);
+    --color-accent: #000;
+    --text-color2: #fff;
+    --text-color3: rgba(117, 117, 117, 1);
 }
 * {
     margin: 0;
@@ -40,6 +40,10 @@ header {
     font-weight: 700;
     margin-left: 215px;
 }
+.hadrs {
+    text-align: right;
+    float: right;
+}
 ul {
     list-style-type: none;
 }
@@ -55,23 +59,10 @@ a {
 .ulnav {
     list-style: none;
 }
-.hadrs {
-    text-align: right;
-    float: right;
-}
 /* main */
-.byps {
-    background-color: rgb(33, 150, 243);
-    color: var(--textcolor1);
-    font-size: medium;
-    border: 0;
-    width: 216px;
-    height: 50px;
-    border-radius: 4px;
-}
 .up123 {
-    background-color: var(--background1);
-    color: var(--textcolor1);
+    background-color: var(--second-bg-color);
+    color: var(--text-color2);
     text-align: center;
     margin: auto;
     height: 600px;
@@ -82,6 +73,15 @@ a {
     font-size: 44px;
     padding-top: 200px;
     height: 120px;
+}
+.byps {
+    background-color: rgb(33, 150, 243);
+    color: var(--text-color2);
+    font-size: medium;
+    border: 0;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
 }
 .sec1 {
     margin-top: 30px;
@@ -128,7 +128,7 @@ a {
 }
 .sec3 {
     font-family: Roboto;
-    background-color: var(--background2);
+    background-color: var(--third-bg-color);
     text-align: center;
     padding-bottom: 50px;
 }
@@ -159,13 +159,13 @@ a {
 /* footer */
 
 footer {
-    background-color: var(--background1);
+    background-color: var(--second-bg-color);
     height: 252px;
     padding-top: 50px;
     padding-left: 215px;
 }
 .fwbslogo, footer {
-    color: var(--textcolor1);
+    color: var(--text-color2);
 }
 footer address {
     font-family: Roboto, sans-serif;
@@ -177,7 +177,7 @@ footer address a {
     color: var(--textcolor1);
     opacity: 60%;
 }
-footer address a[https^="https"] {
+footer address a[href^="https"] {
     opacity: 100%;
 }
 /* Portgolio only */
