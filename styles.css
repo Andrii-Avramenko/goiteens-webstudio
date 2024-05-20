@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
-
 :root {
     --main-bg-color: #fff;
     --second-bg-color: rgb(47, 48, 58);
     --third-bg-color: rgb(245, 244, 250);
     --background4: rgba(33, 150, 243, 1);
     --color-accent: #000;
-    --text-color2: #fff;
-    --text-color3: rgba(117, 117, 117, 1);
+    --white-color: #fff;
+    --text-grey-color: rgba(117, 117, 117, 1);
 }
 * {
     margin: 0;
@@ -62,7 +59,7 @@ a {
 /* main */
 .up123 {
     background-color: var(--second-bg-color);
-    color: var(--text-color2);
+    color: var(--white-color);
     text-align: center;
     margin: auto;
     height: 600px;
@@ -76,7 +73,7 @@ a {
 }
 .byps {
     background-color: rgb(33, 150, 243);
-    color: var(--text-color2);
+    color: var(--white-color);
     font-size: medium;
     border: 0;
     width: 216px;
@@ -153,7 +150,7 @@ a {
 }
 .team p {
     font-weight: 400;
-    color: var(--textcolor2);
+    color: var(--text-grey-color);
 
 }
 /* footer */
@@ -165,7 +162,7 @@ footer {
     padding-left: 215px;
 }
 .fwbslogo, footer {
-    color: var(--text-color2);
+    color: var(--white-color);
 }
 footer address {
     font-family: Roboto, sans-serif;
@@ -174,13 +171,13 @@ footer address {
 }
 footer address a {
     font-style: normal;
-    color: var(--textcolor1);
+    color: var(--white-color);
     opacity: 60%;
 }
 footer address a[href^="https"] {
     opacity: 100%;
 }
-/* Portgolio only */
+/* Portfolio only */
 .sort li {
     margin-bottom: 20px;
     display: inline-block;
@@ -192,9 +189,8 @@ footer address a[href^="https"] {
     font-size: 16px;
     border-radius: 4px;
     border: 0;
-    background-color: var(--background2);
+    background-color: var(--third-bg-color);
 }
 .sort li button:hover {
     background-color: var(--background4);
-    border: 10px;
 }
