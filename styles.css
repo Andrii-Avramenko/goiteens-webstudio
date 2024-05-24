@@ -1,12 +1,12 @@
 :root {
-    --main-bg-color: #fff;
-    --second-bg-color: rgb(47, 48, 58);
-    --third-bg-color: rgb(245, 244, 250);
-    --background4: rgba(33, 150, 243, 1);
-    --color-accent: #000;
-    --white-color: #fff;
-    --text-grey-color: rgba(117, 117, 117, 1);
-}
+    --white-color: #fff; 
+    --second-bg-color: #2F303A;
+    --third-bg-color: #F5F4FA;
+    --background4: rgb(33, 150, 243);
+    --text-dark-color: #212121;
+    --text-grey-color:#757575;
+    --footeradrs: rgba(255, 255, 255, 0.60);  
+} 
 * {
     margin: 0;
     padding: 0;
@@ -80,15 +80,15 @@ a {
     height: 50px;
     border-radius: 4px;
 }
-.sec1 {
+.hero {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 215px;
 }
-.sec1 h2 {
+.hero h2 {
     display: none;
 }
-.sec1 li {
+.hero li {
     display: inline-block;
     vertical-align: text-top;
     margin-right: 5px;
@@ -97,58 +97,59 @@ a {
     font-size: 14px;
     height: 72px;
     width: 270px;
-    color: var(--textcolor2);
+    color: var(--text-grey-color);
 }
-.sec1 li h3 {
+.hero li h3 {
     color: initial;
     font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
 }
-.sec2 {
+.work {
     text-align: center;
 }
-.sec2 h2 {
+.work h2 {
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
-.sec2 li {
+.work li {
     margin-right: 30px;
     display: inline-block;
     margin-top: 30px;
 }
-.sec2 img {
+.work img {
     width: 370px;
     height: 294px;
     object-fit: cover;
 }
-.sec3 {
+.team {
     font-family: Roboto;
     background-color: var(--third-bg-color);
     text-align: center;
     padding-bottom: 50px;
 }
-.sec3 h2 {
+.team h2 {
     font-size: 36px;
     margin: 30px;
     padding-top: 30px;
 }
-.team {
+.teamcard {
     background-color: white;
     width: 270px;
     height: 368px;
     display: inline-block;
     margin-left: 30px;
 }
-.team img {
+.teamcard img {
     height: 260px;
 }
-.team h3 {
+.teamcard h3 {
+    color: VAR(--text-dark-color);
     font-weight: 500;
     margin-top: 30px;
 }
-.team p {
+.teamcard p {
     font-weight: 400;
     color: var(--text-grey-color);
 
@@ -171,11 +172,10 @@ footer address {
 }
 footer address a {
     font-style: normal;
-    color: var(--white-color);
-    opacity: 60%;
+    color: var(--footeradrs);
 }
 footer address a[href^="https"] {
-    opacity: 100%;
+    color: #fff;
 }
 /* Portfolio only */
 .sort li {
