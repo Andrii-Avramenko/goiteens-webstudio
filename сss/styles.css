@@ -7,26 +7,38 @@
     --text-grey-color:#757575;
     --footeradrs: rgba(255, 255, 255, 0.60);  
 } 
-* {
-    margin: 0;
-    padding: 0;
-}
 /* Webstudio + Portfolio */
+body {
+    font-family: Roboto, sans-serif;
+}
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+}
+
 /* header */
-header {
-    margin-top: 2px;
-    height: 80px;
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     background-color: white;
 }
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 576px){
     header {
         height: 50px;
     }
+} */
+.header-container {
+    display: flex;
 }
 .hwbslogo {
     color: black;
 }
-#wbslogo {
+.header-logo {
+    margin-right: 93px;
+}
+/* #wbslogo {
     float: left;
     display: block;
 }
@@ -36,42 +48,40 @@ header {
     font-family: Raleway;
     font-weight: 700;
     margin-left: 215px;
-}
-.hadrs {
-    text-align: right;
-    float: right;
+} */
+.contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
 }
 ul {
     list-style-type: none;
 }
-nav {
-    height: 30px;
-}
-nav ul li {
-    display: inline-block;
-}
 a {
     text-decoration: none;
+}
+.header-list {
+    display: flex;
+    gap: 50px;
 }
 .ulnav {
     list-style: none;
 }
 /* main */
-.up123 {
+.hero {
     background-color: var(--second-bg-color);
     color: var(--white-color);
     text-align: center;
     margin: auto;
     height: 600px;
 }
-.up123 h1 {
-    font-family: Roboto, sans-serif;
+.hero-header {
     font-weight: 900;
     font-size: 44px;
     padding-top: 200px;
     height: 120px;
 }
-.byps {
+.hero-button {
     background-color: rgb(33, 150, 243);
     color: var(--white-color);
     font-size: medium;
@@ -80,28 +90,23 @@ a {
     height: 50px;
     border-radius: 4px;
 }
-.hero {
+.features {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 215px;
 }
-.hero h2 {
-    display: none;
-}
-.hero li {
+.features-item {
     display: inline-block;
     vertical-align: text-top;
     margin-right: 5px;
-    font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     height: 72px;
     width: 270px;
     color: var(--text-grey-color);
 }
-.hero li h3 {
+.features-item h3 {
     color: initial;
-    font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
 }
@@ -109,7 +114,6 @@ a {
     text-align: center;
 }
 .work h2 {
-    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 36px;
 }
@@ -124,7 +128,6 @@ a {
     object-fit: cover;
 }
 .team {
-    font-family: Roboto;
     background-color: var(--third-bg-color);
     text-align: center;
     padding-bottom: 50px;
@@ -166,7 +169,6 @@ footer {
     color: var(--white-color);
 }
 footer address {
-    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
@@ -184,7 +186,6 @@ footer address a[href^="https"] {
 }
 .sort li button {
     height: 38px;
-    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     border-radius: 4px;
