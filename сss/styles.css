@@ -147,6 +147,12 @@ body {
     color: var(--text-grey-color);
 
 }
+.hero,
+.features,
+.work,
+.team {
+    margin-bottom: 94px;
+}                    /*Відстань між секціями (Дз №12)*/
 /* footer */
 
 .footer {
