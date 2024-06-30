@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Сайт Webstudio з одноіменного макету" />
     <title>Webstudio</title>
-    <link rel="stylesheet" href="./сss/modern-normalize.css">
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
     <link rel="stylesheet" href="./сss/reset.css">
     <link rel="stylesheet" href="./сss/styles.css">
     <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
@@ -16,23 +16,22 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
     <header class="header">
         <div class="container header-container">
-            <a href="./index.html" class="logo">
-                Web<span class="header-logo">studio</span>
+            <a href="./index.html" class="header-logo">
+                Web<span class="header-accent">studio</span>
             </a>
             <nav class="header-nav">
                 <ul class="header-list">
-                    <li><a href="./index.html">Студія</a></li>
-                    <li><a href="./portfolio.html">Портфоліо</a></li>
-                    <li><a href="#">Контакти</a></li>
+                    <li class="header-item"><a href="./index.html">Студія</a></li>
+                    <li class="header-item"><a href="./portfolio.html">Портфоліо</a></li>
+                    <li class="header-item"><a href="#">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="contacts">
-                <li><a href="mailto:email@gmail.com">email@gmail.com</a></li>
-                <li><a href="tel:+380921111111">+380 92 111 11 11</a></li>
+            <ul class="header-contacts">
+                <li class="header-contacts-item header-item"><a href="mailto:email@gmail.com">email@gmail.com</a></li>
+                <li class="contacts-item"><a href="tel:+380921111111">+380 92 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -84,24 +83,24 @@
                 <h2 class="team-header">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-card">
-                        <img src="./pictures/Team/igordemyanenko.jpg" alt="Фотографія Ігора Дем'яненко">
-                        <h3>Дем'яненко Ігор</h3>
-                        <p>Product Designer</p>
+                        <img src="./pictures/Team/igordemyanenko.jpg" alt="Фотографія Ігора Дем'яненко" class="team-card-img">
+                        <h3 class="team-card-name">Дем'яненко Ігор</h3>
+                        <p class="team-card-desc">Product Designer</p>
                     </li>
                     <li class="team-card">
-                        <img src="./pictures/Team/olgarepina.jpg" alt="Фотографія Ольги Рєпіной">
-                        <h3>Рєпіна Ольга</h3>
-                        <p>Frontend Developer</p>
+                        <img src="./pictures/Team/olgarepina.jpg" alt="Фотографія Ольги Рєпіной" class="team-card-img">
+                        <h3 class="team-card-name">Рєпіна Ольга</h3>
+                        <p class="team-card-desc">Frontend Developer</p>
                     </li>
                     <li class="team-card">
-                        <img src="./pictures/Team/mykolatarasov.jpg" alt="Фотографія Миколи Тарасова">
-                        <h3>Тарасов Микола</h3>
-                        <p>Marketing</p>
+                        <img src="./pictures/Team/mykolatarasov.jpg" alt="Фотографія Миколи Тарасова" class="team-card-img">
+                        <h3 class="team-card-name">Тарасов Микола</h3>
+                        <p class="team-card-desc">Marketing</p>
                     </li>
                     <li class="team-card">
-                        <img src="./pictures/Team/myhailoermakov.jpg" alt="Фотографія Михайло Єрмаков">
-                        <h3>Єрмаков Михайло</h3>
-                        <p>UI Designer</p>
+                        <img src="./pictures/Team/myhailoermakov.jpg" alt="Фотографія Михайло Єрмаков" class="team-card-img">
+                        <h3 class="team-card-name">Єрмаков Михайло</h3>
+                        <p class="team-card-desc">UI Designer</p>
                     </li>
                 </ul>
             </div>
@@ -109,16 +108,16 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo">
-                <p>Web<span class="footer-logo">studio</span></p>
+            <a href="./index.html" class="footer-logo">
+                <p>Web<span class="footer-accent">studio</span></p>
             </a>
             <br />
             <address class="footer-contacts">
                 <ul class="footer-list">
-                    <li class="footer-item"><a href="https://maps.app.goo.gl/okL4eE9yYccx8SxA8">м. Київ, пр-т Лесі
+                    <li class="footer-item"><a href="https://maps.app.goo.gl/okL4eE9yYccx8SxA8" class="footer-item-address footer-item-link">м. Київ, пр-т Лесі
                             Українки, 26</a></li>
-                    <li class="footer-item"><a href="mailto:email@gmail.com">email@gmail.com</a></li>
-                    <li class="footer-item"><a href="tel:+380921111111">+380 92 111 11 11</a></li>
+                    <li class="footer-item"><a href="mailto:email@gmail.com" class="footer-item-link">email@gmail.com</a></li>
+                    <li class="footer-item"><a href="tel:+380921111111" class="footer-item-link">+380 92 111 11 11</a></li>
                 </ul>
             </address>
         </div>

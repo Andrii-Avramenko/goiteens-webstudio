@@ -1,130 +1,146 @@
 <!DOCTYPE html>
 <html lang="uk">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Сайт Webstudio з одноіменного макету" />
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="./сss/modern-normalize.css">
-        <link rel="stylesheet" href="./сss/reset.css">
-        <link rel="stylesheet" href="./сss/styles.css">
-        <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class="header">
-            <div class="container header-container">
-                <a href="./index.html" class="logo">
-                    Web<span class="header-logo">studio</span>
-                </a>
-                <nav class="header-nav">
-                    <ul class="header-list">
-                        <li><a href="./index.html">Студія</a></li>
-                        <li><a href="./portfolio.html">Портфоліо</a></li>
-                        <li><a href="#">Контакти</a></li>
-                    </ul>
-                </nav>
-                <ul class="contacts">
-                    <li><a href="mailto:email@gmail.com">email@gmail.com</a></li>
-                    <li><a href="tel:+380921111111">+380 92 111 11 11</a></li>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт Webstudio з одноіменного макету" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+    <link rel="stylesheet" href="./сss/reset.css">
+    <link rel="stylesheet" href="./сss/styles.css">
+    <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="./index.html" class="header-logo">
+                Web<span class="header-accent">studio</span>
+            </a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-item"><a href="./index.html">Студія</a></li>
+                    <li class="header-item"><a href="./portfolio.html">Портфоліо</a></li>
+                    <li class="header-item"><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="header-contacts">
+                <li class="header-contacts-item header-item"><a href="mailto:email@gmail.com">email@gmail.com</a></li>
+                <li class="contacts-item"><a href="tel:+380921111111">+380 92 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="portfolio">
+            <div class="container sort-container">
+                <ul class="sort">
+                    <li class="sort-item sort-item-all"><button type="button" class="sort-item-button">Усі</button></li>
+                    <li class="sort-item"><button type="button" width="125px" class="sort-item-button">Веб-сайти</button></li>
+                    <li class="sort-item"><button type="button" width="112px" class="sort-item-button">Додатки</button></li>
+                    <li class="sort-item"><button type="button" width="103px" class="sort-item-button">Дизайн</button></li>
+                    <li class="sort-item"><button type="button" width="130px" class="sort-item-button">Маркетинг</button></li>
+                </ul>
+                <ul class="photos">
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio4.jpg" alt="Macbook Pro з веб-сайтом на єкрані"
+                                width="370" class="photos-img">
+                            <h3 class="photos-title">Технокряк</h3>
+                            <p class="photos-desc">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio5.jpg" alt="Постер описаний нижче" width="370"
+                                class="photos-img">
+                            <h3 class="photos-title">Постер New Orlean vs Golden Star</h3>
+                            <p class="photos-desc">Дизайн</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio6.jpg" alt="Логотип ресторану Seafood" width="370"
+                                class="photos-img">
+                            <h3 class="photos-title">Ресторан Seafood</h3>
+                            <p class="photos-desc">Додаток</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio7.jpg" alt="Чорні навушники" width="370"
+                                class="photos-img">
+                            <h3 class="photos-title">Проєкт Prime</h3>
+                            <p class="photos-desc">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio8.jpg" alt="Дві коробки" width="370"
+                                class="photos-img">
+                            <h3 class="photos-title">Проєкт Boxes</h3>
+                            <p class="photos-desc">Додаток</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio9.jpg" alt="Комп'ютер з веб-сайтом на єкрані"
+                                width="370" class="photos-img">
+                            <h3 class="photos-title">Inspiration has no Borders</h3>
+                            <p class="photos-desc">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio10.jpg" alt="Книга" width="370" class="photos-img">
+                            <h3 class="photos-title">Видання Limited Edition</h3>
+                            <p class="photos-desc">Дизайн</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio11.jpg" alt="Картонка з написом" width="370"
+                                class="photos-img">
+                            <h3 class="photos-title">Проєкт LAB</h3>
+                            <p class="photos-desc">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li class="photos-item">
+                        <a href="#" class="photos-link">
+                            <img src="./pictures/Portfolio/webstudio12.jpg" alt="Людина використовує ноутбук"
+                                width="370" class="photos-img">
+                            <h3 class="photos-title">Growing Buisness</h3>
+                            <p class="photos-desc">Додаток</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </header>
-        <main>
-            <section>
-                <div class="container sort-container">
-                    <ul class="sort">
-                        <li class="sort-item"><button type="button" width="73px">Усі</button></li>
-                        <li class="sort-item"><button type="button" width="125px">Веб-сайти</button></li>
-                        <li class="sort-item"><button type="button" width="112px">Додатки</button></li>
-                        <li class="sort-item"><button type="button" width="103px">Дизайн</button></li>
-                        <li class="sort-item"><button type="button" width="130px">Маркетинг</button></li>
-                    </ul>    
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="./pictures/Portfolio/webstudio4.jpg" alt="Macbook Pro з веб-сайтом на єкрані" width="370">
-                                <h3>Технокряк</h3>
-                                <p>Веб-сайт</p>
-                            </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio5.jpg" alt="Постер описаний нижче" width="370">
-                            <h3>Постер New Orlean vs Golden Star</h3>
-                            <p>Дизайн</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio6.jpg" alt="Логотип ресторану Seafood" width="370">
-                            <h3>Ресторан Seafood</h3>
-                            <p>Додаток</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio7.jpg" alt="Чорні навушники" width="370">
-                            <h3>Проєкт Prime</h3>
-                            <p>Маркетинг</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio8.jpg" alt="Дві коробки" width="370">
-                            <h3>Проєкт Boxes</h3>
-                            <p>Додаток</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio9.jpg" alt="Комп'ютер з веб-сайтом на єкрані" width="370">
-                            <h3>Inspiration has no Borders</h3>
-                            <p>Веб-сайт</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio10.jpg" alt="Книга" width="370">
-                            <h3>Видання Limited Edition</h3>
-                            <p>Дизайн</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio11.jpg" alt="Картонка з написом" width="370">
-                            <h3>Проєкт LAB</h3>
-                            <p>Маркетинг</p>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="./pictures/Portfolio/webstudio12.jpg" alt="Людина використовує ноутбук" width="370">
-                            <h3>Growing Buisness</h3>
-                            <p>Додаток</p>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <a href="./index.html" class="logo">
-                    <p>Web<span class="footer-logo">studio</span></p>
-                </a>
-                <br />
-                <address class="footer-contacts">
-                    <ul class="footer-list">
-                        <li class="footer-item"><a href="https://maps.app.goo.gl/okL4eE9yYccx8SxA8">м. Київ, пр-т Лесі
-                                Українки, 26</a></li>
-                        <li class="footer-item"><a href="mailto:email@gmail.com">email@gmail.com</a></li>
-                        <li class="footer-item"><a href="tel:+380921111111">+380 92 111 11 11</a></li>
-                    </ul>
-                </address>
-            </div>
-        </footer>
-    </body>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="footer-logo">
+                <p>Web<span class="footer-accent">studio</span></p>
+            </a>
+            <br />
+            <address class="footer-contacts">
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="https://maps.app.goo.gl/okL4eE9yYccx8SxA8"
+                            class="footer-item-address footer-item-link">м. Київ, пр-т Лесі
+                            Українки, 26</a></li>
+                    <li class="footer-item"><a href="mailto:email@gmail.com"
+                            class="footer-item-link">email@gmail.com</a></li>
+                    <li class="footer-item"><a href="tel:+380921111111" class="footer-item-link">+380 92 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+</body>
+
 </html>
