@@ -2,7 +2,7 @@
     --white-color: #fff; 
     --second-bg-color: #2F303A;
     --third-bg-color: #F5F4FA;
-    --background4: rgb(33, 150, 243);
+    --color-accent: #2196F3;
     --text-dark-color: #212121;
     --text-grey-color:#757575;
     --footeradrs: rgba(255, 255, 255, 0.60);  
@@ -29,17 +29,17 @@ body {
 .header-container {
     display: flex;
 }
-.header-accent {
-    color: #000;
-    margin-right: 93px;
-}
 .header-logo,
 .footer-logo {
-    color: #2196F3;
+    color: var(--color-accent);
     font-size: 26px;
     line-height: 1.3;
     font-family: Raleway;
     font-weight: 700;
+}
+.header-accent {
+    color: #000;
+    margin-right: 93px;
 }
 .header-contacts {
     display: flex;
@@ -49,6 +49,13 @@ body {
 .header-list {
     display: flex;
     gap: 50px;
+}
+.header-page:hover,
+.header-page:focus,
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--color-accent);
+    cursor: pointer;
 }
 /* main */
 .hero {
@@ -91,7 +98,7 @@ body {
     width: 270px;
     color: var(--text-grey-color);
 }
-.features-item h3 {
+.features-item-title {
     color: initial;
     font-weight: 700;
     font-size: 14px;
@@ -110,7 +117,7 @@ body {
     display: flex;
     gap: 30px;
 }
-.work img {
+.work-img {
     width: 370px;
     height: 294px;
     object-fit: cover;
@@ -201,7 +208,7 @@ body {
 }
 .sort-item-button:hover,
 .sort-item-button:focus {
-    background-color: var(--background4);
+    background-color: var(--color-accent);
     color: var(--white-color);
 }
 .photos-title {
