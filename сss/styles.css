@@ -98,7 +98,7 @@ body {
     width: 270px;
     color: var(--text-grey-color);
 }
-.features-item-title {
+.features-subtitle {
     color: initial;
     font-weight: 700;
     font-size: 14px;
@@ -107,7 +107,7 @@ body {
 .work {
     display: flex;
 }
-.work-header {
+.work-heading {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -128,7 +128,7 @@ body {
     text-align: center;
     padding-bottom: 50px;
 }
-.team-header {
+.team-heading {
     font-size: 36px;
     margin: 30px;
     padding-top: 30px;
@@ -141,16 +141,16 @@ body {
     display: flex;
     gap: 30px;
 }
-.team-card-img {
+.team-img {
     height: 260px;
 }
-.team-card-name {
+.team-name {
     color: VAR(--text-dark-color);
     font-weight: 500;
     margin-top: 30px;
     line-height: 1.1;
 }
-.team-card-desc {
+.team-desc {
     font-weight: 400;
     color: var(--text-grey-color);
     line-height: 1.1;
@@ -174,7 +174,7 @@ body {
 .footer {
     color: var(--white-color);
 }
-.footer-item-link {
+.footer-link {
     font-style: normal;
     color: var(--footeradrs);
 }
@@ -191,7 +191,7 @@ body {
     justify-content: center;
 
 }
-.sort-item-button {
+.sort-button {
     display: flex;
     height: 38px;
     font-weight: 500;
@@ -201,13 +201,13 @@ body {
     border: 0;
     background-color: var(--third-bg-color);
 }
-.sort-item-all {
+.sort-all {
     width: 73px;
     height: 38px;
     flex-shrink: 0; 
 }
-.sort-item-button:hover,
-.sort-item-button:focus {
+.sort-button:hover,
+.sort-button:focus {
     background-color: var(--color-accent);
     color: var(--white-color);
 }
