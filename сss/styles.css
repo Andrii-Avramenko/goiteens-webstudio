@@ -24,23 +24,29 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    background-color: white;
+    background-color: var(--white-color);
 }
 .header-container {
     display: flex;
 }
 .header-logo,
+.header-accent,
 .footer-logo {
     color: var(--color-accent);
     font-size: 26px;
     line-height: 1.3;
     font-family: Raleway;
     font-weight: 700;
+    /* Не зрозумів що саме тут треба зробити */
 }
-.header-accent {
+.header-logo {
     color: #000;
     margin-right: 93px;
 }
+/* .header-accent {
+    color: #000;
+    margin-right: 93px;
+} */
 .header-contacts {
     display: flex;
     gap: 50px;
@@ -49,6 +55,13 @@ body {
 .header-list {
     display: flex;
     gap: 50px;
+}
+.header-page {
+    color: var(--text-dark-color);
+}
+.header-contact {
+    color: var(--text-grey-color);
+    /* не можу зрозуміти чому воно не змінює колір🧐 */
 }
 .header-page:hover,
 .header-page:focus,
@@ -63,14 +76,21 @@ body {
     color: var(--white-color);
     text-align: center;
     margin: auto;
-    height: 600px;
+    padding: 200px 0;
+}
+.hero-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    padding-top: 200px;
-    height: 120px;
+    max-width: 696px;
+    letter-spacing: 2.64px;
 }
 .hero-button {
     background-color: rgb(33, 150, 243);
@@ -82,18 +102,17 @@ body {
     border-radius: 4px;
 }
 .features {
-    display: flex;
-    flex-direction: row;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 215px;
 }
-.features-item {
+.features-list {
     display: flex;
-    flex-direction: row;
+    gap: 30px;
+}
+.features-item {
     flex-wrap: wrap;
     vertical-align: text-top;
-    margin-right: 5px;
     height: 72px;
     width: 270px;
     color: var(--text-grey-color);
@@ -104,8 +123,9 @@ body {
     font-size: 14px;
     line-height: 1.1;
 }
-.work {
+.work-list {
     display: flex;
+    gap: 30px;
 }
 .work-heading {
     text-align: center;
@@ -113,17 +133,12 @@ body {
     font-size: 36px;
     line-height: 1.2;
 }
-.work-item {
-    display: flex;
-    gap: 30px;
-}
 .work-img {
     width: 370px;
     height: 294px;
     object-fit: cover;
 }
 .team {
-    display: flex;
     background-color: var(--third-bg-color);
     text-align: center;
     padding-bottom: 50px;
@@ -134,12 +149,14 @@ body {
     padding-top: 30px;
     line-height: 1.2;
 }
+.team-list {
+    display: flex;
+    gap: 30px;
+}
 .team-card {
     background-color: white;
     width: 270px;
     height: 368px;
-    display: flex;
-    gap: 30px;
 }
 .team-img {
     height: 260px;
@@ -156,14 +173,13 @@ body {
     line-height: 1.1;
 
 }
-/* .hero,
+.hero,
 .features,
 .work,
 .team {
     margin-bottom: 94px;
-}                    Відстань між секціями (Дз №12) */
+}
 /* footer */
-
 .footer {
     background-color: var(--second-bg-color);
     height: 252px;
