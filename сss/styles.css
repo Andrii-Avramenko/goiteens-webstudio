@@ -19,7 +19,11 @@ body {
     margin: 0 auto;
     /* outline: 1px solid red; */
 }
-
+.features,
+.work,
+.team {
+    padding-top: 94px;
+}
 /* header */
 .header {
     padding-top: 24px;
@@ -101,11 +105,6 @@ body {
     height: 50px;
     border-radius: 4px;
 }
-.features {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 215px;
-}
 .features-list {
     display: flex;
     gap: 30px;
@@ -141,12 +140,10 @@ body {
 .team {
     background-color: var(--third-bg-color);
     text-align: center;
-    padding-bottom: 50px;
 }
 .team-heading {
     font-size: 36px;
-    margin: 30px;
-    padding-top: 30px;
+    margin-bottom: 30px;
     line-height: 1.2;
 }
 .team-list {
@@ -154,7 +151,7 @@ body {
     gap: 30px;
 }
 .team-card {
-    background-color: white;
+    background-color: var(--white-color);
     width: 270px;
     height: 368px;
 }
@@ -173,18 +170,11 @@ body {
     line-height: 1.1;
 
 }
-.hero,
-.features,
-.work,
-.team {
-    margin-bottom: 94px;
-}
+
 /* footer */
 .footer {
     background-color: var(--second-bg-color);
-    height: 252px;
-    padding-top: 50px;
-    padding-left: 215px;
+    padding: 60px 0;
 }
 .footer-accent,
 .footer {
