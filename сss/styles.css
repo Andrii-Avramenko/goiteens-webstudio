@@ -190,15 +190,12 @@ body {
 /* Portfolio only */
 .sort {
     display: flex;
-}
-.sort-item {
-    display: flex;
     gap: 8px;
     justify-content: center;
-
+    padding-bottom: 50px;
+    padding-top: 101px;
 }
 .sort-button {
-    display: flex;
     height: 38px;
     font-weight: 500;
     font-size: 16px;
@@ -207,15 +204,23 @@ body {
     border: 0;
     background-color: var(--third-bg-color);
 }
-.sort-all {
-    width: 73px;
-    height: 38px;
-    flex-shrink: 0; 
-}
 .sort-button:hover,
 .sort-button:focus {
     background-color: var(--color-accent);
     color: var(--white-color);
+}
+.photos {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.photos-item {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    max-width: 370px;
+    border: 1px solid #EEE;
+}
+.photos-textbox {
+    padding: 20px 24px;
 }
 .photos-title {
     color: #212121;
