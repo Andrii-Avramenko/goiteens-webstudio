@@ -1,38 +1,45 @@
 :root {
-    --white-color: #fff; 
+    --white-color: #fff;
     --second-bg-color: #2F303A;
     --third-bg-color: #F5F4FA;
     --color-accent: #2196F3;
     --text-dark-color: #212121;
-    --text-grey-color:#757575;
-    --footeradrs: rgba(255, 255, 255, 0.60);  
-} 
+    --text-grey-color: #757575;
+    --footeradrs: rgba(255, 255, 255, 0.60);
+}
+
 /* Webstudio + Portfolio */
 body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
+
 .container {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     /* outline: 1px solid red; */
 }
+
 .features,
 .work,
 .team {
     padding-top: 94px;
 }
+
 /* header */
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
     background-color: var(--white-color);
 }
+
 .header-container {
     display: flex;
+    align-items: center;
 }
+
 .header-logo,
 .header-accent,
 .footer-logo {
@@ -43,10 +50,12 @@ body {
     font-weight: 700;
     /* Не зрозумів що саме тут треба зробити */
 }
+
 .header-logo {
     color: #000;
     margin-right: 93px;
 }
+
 /* .header-accent {
     color: #000;
     margin-right: 93px;
@@ -56,24 +65,36 @@ body {
     gap: 50px;
     margin-left: auto;
 }
+
 .header-list {
     display: flex;
     gap: 50px;
 }
+
 .header-page {
     color: var(--text-dark-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
 }
-.header-contact {
+
+.header-link {
     color: var(--text-grey-color);
-    /* не можу зрозуміти чому воно не змінює колір🧐 */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
 }
+
 .header-page:hover,
 .header-page:focus,
-.header-contact:hover,
-.header-contact:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--color-accent);
     cursor: pointer;
 }
+
 /* main */
 .hero {
     background-color: var(--second-bg-color);
@@ -82,6 +103,7 @@ body {
     margin: auto;
     padding: 200px 0;
 }
+
 .hero-container {
     display: flex;
     gap: 30px;
@@ -89,13 +111,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     max-width: 696px;
     letter-spacing: 2.64px;
+    text-transform: uppercase;
 }
+
 .hero-button {
     background-color: rgb(33, 150, 243);
     color: var(--white-color);
@@ -105,65 +130,84 @@ body {
     height: 50px;
     border-radius: 4px;
 }
+
 .features-list {
     display: flex;
     gap: 30px;
 }
+
 .features-item {
-    flex-wrap: wrap;
     vertical-align: text-top;
-    height: 72px;
-    width: 270px;
-    color: var(--text-grey-color);
+    max-width: 270px;
 }
+
 .features-subtitle {
     color: initial;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.1;
+    color: var(--text-dark-color);
 }
+
+.features-text {
+    color: var(--text-grey-color);
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+}
+
 .work-list {
     display: flex;
     gap: 30px;
 }
+
 .work-heading {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    letter-spacing: 1.08px; 
+    margin-bottom: 50px;
 }
+
 .work-img {
     width: 370px;
     height: 294px;
     object-fit: cover;
 }
+
 .team {
     background-color: var(--third-bg-color);
     text-align: center;
 }
+
 .team-heading {
     font-size: 36px;
     margin-bottom: 30px;
     line-height: 1.2;
+    letter-spacing: 1.08px; 
 }
+
 .team-list {
     display: flex;
     gap: 30px;
 }
+
 .team-card {
     background-color: var(--white-color);
     width: 270px;
     height: 368px;
 }
+
 .team-img {
     height: 260px;
 }
+
 .team-name {
     color: VAR(--text-dark-color);
     font-weight: 500;
     margin-top: 30px;
     line-height: 1.1;
 }
+
 .team-desc {
     font-weight: 400;
     color: var(--text-grey-color);
@@ -176,17 +220,21 @@ body {
     background-color: var(--second-bg-color);
     padding: 60px 0;
 }
+
 .footer-accent,
 .footer {
     color: var(--white-color);
 }
+
 .footer-link {
     font-style: normal;
     color: var(--footeradrs);
 }
+
 .footer-item-address {
     color: #fff;
 }
+
 /* Portfolio only */
 .sort {
     display: flex;
@@ -195,6 +243,7 @@ body {
     padding-bottom: 50px;
     padding-top: 101px;
 }
+
 .sort-button {
     height: 38px;
     font-weight: 500;
@@ -204,31 +253,37 @@ body {
     border: 0;
     background-color: var(--third-bg-color);
 }
+
 .sort-button:hover,
 .sort-button:focus {
     background-color: var(--color-accent);
     color: var(--white-color);
 }
+
 .photos {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
+
 .photos-item {
     flex-basis: calc((100% - 2 * 30px) / 3);
     max-width: 370px;
     border: 1px solid #EEE;
 }
+
 .photos-textbox {
     padding: 20px 24px;
 }
+
 .photos-title {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    letter-spacing: 1.08px; 
+    letter-spacing: 1.08px;
 }
+
 .photos-desc {
     color: #757575;
     font-size: 16px;
