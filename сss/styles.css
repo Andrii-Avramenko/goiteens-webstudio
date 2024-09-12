@@ -6,6 +6,7 @@
     --text-dark-color: #212121;
     --text-grey-color: #757575;
     --footeradrs: rgba(255, 255, 255, 0.60);
+    --unactive-color: #AFB1B8;
 }
 
 /* Webstudio + Portfolio */
@@ -283,7 +284,7 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: #AFB1B8;
+    fill: var(--unactive-color);
     justify-content: center;
     align-items: center;
 }
@@ -294,7 +295,22 @@ body {
     border-color: var(--color-accent);
     fill: var(--white-color);
 }
-
+/* clients */
+.clients {
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+.clients-item {
+    fill: var(--unactive-color);
+    border: var(--unactive-color) 1px solid;
+    border-radius: 4px;
+    flex-basis: calc((100% - 30px) / 6);
+}
+.clients-img {
+    fill: var(--unactive-color);
+}
 /* footer */
 .footer {
     background-color: var(--second-bg-color);
@@ -349,7 +365,7 @@ body {
     height: 44px;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
+    fill: var(--unactive-color);
 }
 
 .footer-link:hover,
