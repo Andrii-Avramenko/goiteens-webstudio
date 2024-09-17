@@ -147,8 +147,8 @@ body {
     color: var(--white-color);
     font-size: medium;
     border: 0;
-    width: 216px;
-    height: 50px;
+    padding: 10px 32px;
+    line-height: 1.9;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -236,7 +236,7 @@ body {
 
 .team-heading {
     font-size: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     line-height: 1.2;
     letter-spacing: 1.08px;
 }
@@ -324,8 +324,15 @@ body {
 }
 .footer-contacts {
     display: flex;
+    padding-top: 20px;
     gap: 9px;
     flex-direction: column;
+}
+.footer-item a {
+    transition: 0.3s;
+}
+.footer-item a:hover {
+    color: var(--color-accent);
 }
 .footer-email,
 .footer-phone {
@@ -350,7 +357,6 @@ body {
 .footer-links {
     display: flex;
     flex-direction: column;
-    
 }
 .footer-list {
     display: flex;
