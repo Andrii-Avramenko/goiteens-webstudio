@@ -102,6 +102,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.28px;
     fill: var(--text-grey-color);
+    align-items: center;
     gap: 10px;
     transition: 0.3s;
 }
@@ -125,7 +126,6 @@ body {
         url(../image/hero-background.jpg);
     color: var(--white-color);
     text-align: center;
-    margin: auto;
 }
 
 .hero-container {
@@ -260,10 +260,6 @@ body {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
-.team-img {
-    height: 260px;
-}
-
 .team-name {
     color: VAR(--text-dark-color);
     font-weight: 500;
@@ -323,26 +319,25 @@ body {
     justify-content: center;
 }
 
-.clients-item {
+.clients-link {
     display: flex;
+    width: 170px;
+    height: 92px;
+    flex-basis: calc((100% - 30px) / 6);
     fill: var(--unactive-color);
     border: var(--unactive-color) 1px solid;
-    border-radius: 4px;
-    flex-basis: calc((100% - 30px) / 6);
-    padding: 16px 32px;
     justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.3s;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
     fill: var(--color-accent);
     border-color: var(--color-accent);
 }
-.clients-icon {
-    width: 106px;
-    height: 60px;
-    fill: var(--unactive-color);
-}
+
 
 /* footer */
 .footer {
