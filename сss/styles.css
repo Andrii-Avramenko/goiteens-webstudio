@@ -338,7 +338,6 @@ body {
     display: flex;
     width: 170px;
     height: 92px;
-    flex-basis: calc((100% - 30px) / 6);
     fill: var(--unactive-color);
     border: var(--unactive-color) 1px solid;
     justify-content: center;
@@ -366,9 +365,8 @@ body {
     color: var(--white-color);
 }
 
-.footer-address {
+.footer-group {
     display: flex;
-    flex-direction: row;
 }
 
 .footer-contacts {
