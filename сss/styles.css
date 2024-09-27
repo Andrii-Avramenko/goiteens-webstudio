@@ -391,7 +391,9 @@ body {
 .footer-group {
     display: flex;
 }
-
+.footer-address {
+    width: 231px;
+}
 .footer-contacts {
     display: flex;
     padding-top: 20px;
