@@ -15,9 +15,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./сss/reset.css">
     <link rel="stylesheet" href="./сss/styles.css">
-    <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
 </head>
-
 <body>
     <header class="header">
         <div class="container header-container">
@@ -158,54 +157,68 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
             <a href="./index.html" class="footer-logo">
-                <p>Web<span class="footer-accent">studio</span></p>
+                Web<span class="footer-accent">studio</span>
             </a>
-            <address>
-                <ul class="footer-contacts">
-                    <li class="footer-item"><a href="https://maps.app.goo.gl/okL4eE9yYccx8SxA8" class="footer-map">м.
-                            Київ, пр-т Лесі
-                            Українки, 26</a></li>
-                    <li class="footer-item"><a href="mailto:info@devstudio.com"
-                            class="footer-email">info@devstudio.com</a>
-                    </li>
-                    <li class="footer-item"><a href="tel:+380921111111" class="footer-phone">+380 92 111 11 11</a></li>
-                </ul>
+            <div class="footer-group">
+                <address class="footer-address">
+                    <ul class="footer-contacts">
+                        <li class="footer-item"><a href="https://maps.app.goo.gl/okL4eE9yYccx8SxA8"
+                                class="footer-map">м.
+                                Київ, пр-т Лесі
+                                Українки, 26</a></li>
+                        <li class="footer-item"><a href="mailto:info@devstudio.com"
+                                class="footer-email">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-item"><a href="tel:+380921111111" class="footer-phone">+380 92 111 11 11</a>
+                        </li>
+                    </ul>
 
-            </address>
-            <div class="footer-links">
-                <p class="footer-text">Приєднуйтесь</p>
+                </address>
+                <div class="footer-socials">
+                    <p class="footer-text">Приєднуйтесь</p>
                     <ul class="footer-list">
-                        <li class="footer-link">
-                            <a href="https://www.instagram.com/" target="_blank">
+                        <li class="footer-social">
+                            <a href="https://www.instagram.com/" target="_blank" class="footer-link">
                                 <svg width="20" height="20">
                                     <use href="./image/svg/symbol-defs.svg#instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-link">
-                            <a href="https://x.com/home" target="_blank">
+                        <li class="footer-social">
+                            <a href="https://x.com/home" target="_blank" class="footer-link">
                                 <svg width="20" height="20">
                                     <use href="./image/svg/symbol-defs.svg#twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-link">
-                            <a href="https://www.facebook.com/" target="_blank">
+                        <li class="footer-social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer-link">
                                 <svg width="20" height="20">
                                     <use href="./image/svg/symbol-defs.svg#facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-link">
-                            <a href="https://www.linkedin.com" target="_blank">
+                        <li class="footer-social">
+                            <a href="https://www.linkedin.com" target="_blank" class="footer-link">
                                 <svg width="20" height="20">
                                     <use href="./image/svg/symbol-defs.svg#linkedin"></use>
                                 </svg>
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="footer-signup">
+                    <label for="email" class="footer-label">Підпишіться на розсилку</label>
+                    <form action="" class="footer-form">
+                        <input type="email" name="email" id="" class="footer-input" placeholder="E-mail" required>
+                        <button type="submit" class="footer-send">
+                            Підписатися
+                            <img src="./image/svg/send-icon.svg" alt="" class="send-icon">
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
