@@ -362,7 +362,7 @@ body {
     position: relative;
 }
 
-.work-subtitle {
+.work-overlay {
     position: absolute;
     bottom: 0;
     width: 100%;

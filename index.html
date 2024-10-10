@@ -86,17 +86,23 @@
             <div class="container">
                 <h2 class="work-heading">Чим ми займаємося</h2>
                 <ul class="work-list">
-                    <li class="work-item"><img src="./image/webstudio3.jpg" alt="Працівник програмує" class="work-img"
-                            width="370">
-                        <h3 class="work-subtitle">Десктопні додатки</h3>
+                    <li class="work-item">
+                        <img src="./image/webstudio3.jpg" alt="Працівник програмує" class="work-img" width="370">
+                        <div class="work-overlay">
+                            <h3 class="work-subtitle">Десктопні додатки</h3>
+                        </div>
                     </li>
                     <li class="work-item"><img src="./image/webstudio2.jpg"
                             alt="Працівник використовує телефон та ноутбук" class="work-img" width="370">
-                        <h3 class="work-subtitle">Мобільні додатки</h3>
+                        <div class="work-overlay">
+                            <h3 class="work-subtitle">Мобільні додатки</h3>
+                        </div>
                     </li>
                     <li class="work-item"><img src="./image/webstudio1.jpg" alt="Працівник підбирає цвітову палітру"
                             class="work-img" width="370">
-                        <h3 class="work-subtitle">Дизайнерскі рішення</h3>
+                        <div class="work-overlay">
+                            <h3 class="work-subtitle">Дизайнерскі рішення</h3>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -369,50 +375,28 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button class="btn-close-modal" type="button" data-modal-close>×</button>
-          <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
-          <form class="form">
-           
-              <label class="form-label" for="name">Ім'я</label>
-              <div class="icon-position">
-                <input
-                  class="form-input"
-                  type="text"
-                  name="name"
-                  id="name"
-                />
-              <label class="form-label" for="tel">Телефон </label>
-                <input
-                  class="form-input"
-                  type="tel"
-                  name="tel"
-                  id="tel"
-                />
-              <label class="form-label" for="email">Пошта</label>
-                <input class="form-input" type="email" name="email" id="email" />
-              <label class="form-label" for="comment">Коментар</label>
-              <textarea
-                class="comment"
-                name="comment"
-                id="comment"
-                placeholder="Введіть текст"
-              ></textarea>
-           
-              <input
-                class="checkbox"
-                type="checkbox"
-                name="agree"
-                value="agree"
-                id="agree"
-              />
-              <label class="checkbox-label" for="agree"
-                >Погоджуюся з розсилкою та приймаю
-                <a href="" class="words-accent">Умови договору</a>
-              </label>
-            <button type="submit" class="bth-modal-send">Відправити</button>
-          </form>
+            <button class="btn-close-modal" type="button" data-modal-close>×</button>
+            <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form class="form">
+
+                <label class="form-label" for="name">Ім'я</label>
+                <div class="icon-position">
+                    <input class="form-input" type="text" name="name" id="name" />
+                    <label class="form-label" for="tel">Телефон </label>
+                    <input class="form-input" type="tel" name="tel" id="tel" />
+                    <label class="form-label" for="email">Пошта</label>
+                    <input class="form-input" type="email" name="email" id="email" />
+                    <label class="form-label" for="comment">Коментар</label>
+                    <textarea class="comment" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+
+                    <input class="checkbox" type="checkbox" name="agree" value="agree" id="agree" />
+                    <label class="checkbox-label" for="agree">Погоджуюся з розсилкою та приймаю
+                        <a href="" class="words-accent">Умови договору</a>
+                    </label>
+                    <button type="submit" class="bth-modal-send">Відправити</button>
+            </form>
         </div>
-      </div>
+    </div>
     <script src="./JS/modal.js"></script>
 </body>
 
