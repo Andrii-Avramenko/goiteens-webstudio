@@ -80,22 +80,20 @@ body {
 }
 
 /* form */
-.form {
-    display: flex;
-    align-items: center;
-}
-
 .btn-close-modal {
     position: absolute;
     top: 8px;
     right: 8px;
     fill: #000;
-    padding: 6px;
     background-color: var(--white-color);
     border: 1px solid #000;
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.btn-close-modal:hover,
+.btn-close-modal:focus {
+    fill: var(--color-accent);
+}
 .form-title {
     color: var(--text-dark-color);
     text-align: center;
@@ -121,6 +119,7 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.20);
     margin-top: 4px;
     margin-bottom: 10px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover,
@@ -133,6 +132,7 @@ body {
     width: 448px;
     height: 120px;
     border-radius: 4px;
+    resize: none;
     border: 1px solid rgba(33, 33, 33, 0.20);
     padding: 12px 16px;
     margin-top: 4px;
@@ -147,21 +147,25 @@ body {
 }
 
 .bth-modal-send {
+    display: block;
     width: 200px;
     height: 50px;
     border-radius: 4px;
     background: #188CE8;
     border: 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white-color);
     text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.96px;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.bth-modal-send:hover,
+.bth-modal-send:focus {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
 /* header */
 .header {
     padding-top: 24px;
