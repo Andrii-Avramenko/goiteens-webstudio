@@ -197,6 +197,32 @@ body {
     font-style: normal;
 }
 
+.header-logo:hover .header-accent,
+.footer-logo:hover {
+    animation-name: ColorfulLogo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ColorfulLogo {
+    0% {
+        color: var(--color-accent);
+    }
+    25% {
+        color: #d20000;
+    }
+    50% {
+        color: #00d21c;
+    }
+    75% {
+        color: #d200cf;
+    }
+    100% {
+        color: var(--color-accent);
+    }
+}
+
 .header-logo {
     color: #000;
     margin-right: 93px;
